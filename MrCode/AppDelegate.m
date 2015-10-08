@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "GitHubOAuthClient.h"
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 NSString * const kClientID         = @"a17a1237e6cb4e8ac584";
 NSString * const kClientSecret     = @"9df3af59331d5618d66a0c2f95a1e833e4c388bb";
@@ -26,6 +27,8 @@ NSString * const kAccessURL        = @"https://github.com/login/oauth/access_tok
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup];
+    
     // Override point for customization after application launch.
     
 //    [self setupGitHubOAuth];

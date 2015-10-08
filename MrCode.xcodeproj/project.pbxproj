@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0201F8E7BCBAB3CB7FBF7F0F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D41C7FEEFF8F2CBD79315C /* SystemConfiguration.framework */; };
 		05B3E000177B2E760B3A5B0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E792D13A526B5E88944E2D /* libPods.a */; };
+		2362DDE55DB76F1C83E97FC4 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB67E5C5547508F8B4A21E16 /* AssetsLibrary.framework */; };
 		3F0006F21B4D7C6C00503F50 /* NSString+ToNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0006F11B4D7C6C00503F50 /* NSString+ToNSDate.m */; };
 		3F2547441B45A0060012CDD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2547431B45A0060012CDD6 /* main.m */; };
 		3F2547471B45A0060012CDD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2547461B45A0060012CDD6 /* AppDelegate.m */; };
@@ -48,6 +50,9 @@
 		3FDB8D301B726B37004694B4 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDB8D2F1B726B37004694B4 /* WebViewController.m */; };
 		3FFA8CEB1BC4C29B002AD647 /* mobile-github.css in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA8CEA1BC4C29B002AD647 /* mobile-github.css */; settings = {ASSET_TAGS = (); }; };
 		3FFA8CED1BC4C2E4002AD647 /* mobile-github.js in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA8CEC1BC4C2E4002AD647 /* mobile-github.js */; settings = {ASSET_TAGS = (); }; };
+		60B7B06CEA59100FAA41EAFC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4F5B3A3E92462357FF1A41 /* CoreText.framework */; };
+		683008BBA35EAF52F0E98BF2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73FAD84470ACAF4FE0CC7E22 /* CoreTelephony.framework */; };
+		F40A6A3E1A46746F7AE92E67 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A96B6077ED34F2B233F5B47 /* BuddyBuildSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4F5B3A3E92462357FF1A41 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		3F0006F01B4D7C6C00503F50 /* NSString+ToNSDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ToNSDate.h"; sourceTree = "<group>"; };
 		3F0006F11B4D7C6C00503F50 /* NSString+ToNSDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ToNSDate.m"; sourceTree = "<group>"; };
 		3F0F437D1BB46865002B5608 /* RACmetamacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACmetamacros.h; sourceTree = "<group>"; };
@@ -139,7 +145,11 @@
 		3FDB8D2F1B726B37004694B4 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		3FFA8CEA1BC4C29B002AD647 /* mobile-github.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mobile-github.css"; sourceTree = "<group>"; };
 		3FFA8CEC1BC4C2E4002AD647 /* mobile-github.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mobile-github.js"; sourceTree = "<group>"; };
+		4A96B6077ED34F2B233F5B47 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		73FAD84470ACAF4FE0CC7E22 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A6D41C7FEEFF8F2CBD79315C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AB24770223FEE1F449EAD4FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BB67E5C5547508F8B4A21E16 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		C003DD33F5E02E04E4EEC24D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E8E792D13A526B5E88944E2D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -150,6 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B3E000177B2E760B3A5B0E /* libPods.a in Frameworks */,
+				F40A6A3E1A46746F7AE92E67 /* BuddyBuildSDK.framework in Frameworks */,
+				2362DDE55DB76F1C83E97FC4 /* AssetsLibrary.framework in Frameworks */,
+				60B7B06CEA59100FAA41EAFC /* CoreText.framework in Frameworks */,
+				683008BBA35EAF52F0E98BF2 /* CoreTelephony.framework in Frameworks */,
+				0201F8E7BCBAB3CB7FBF7F0F /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +428,11 @@
 			isa = PBXGroup;
 			children = (
 				E8E792D13A526B5E88944E2D /* libPods.a */,
+				4A96B6077ED34F2B233F5B47 /* BuddyBuildSDK.framework */,
+				BB67E5C5547508F8B4A21E16 /* AssetsLibrary.framework */,
+				0E4F5B3A3E92462357FF1A41 /* CoreText.framework */,
+				73FAD84470ACAF4FE0CC7E22 /* CoreTelephony.framework */,
+				A6D41C7FEEFF8F2CBD79315C /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -735,6 +755,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MrCode/MrCode-Prefix.pch";
 				INFOPLIST_FILE = MrCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -749,6 +773,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MrCode/MrCode-Prefix.pch";
 				INFOPLIST_FILE = MrCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
